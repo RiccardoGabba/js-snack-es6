@@ -21,6 +21,7 @@ const vip =
         }
     })
     console.log(guestName)
+
 //SNACK 2
 const studenti =
 [
@@ -61,4 +62,20 @@ const studenti =
     },
 ]
 
+let votiStudenti = studenti.filter((element)=>{
+    return element.grades > 70
+})
 
+let id = studenti.filter((element)=>{
+    return element.id > 120 && element.grades > 70
+    
+})
+
+let nomiStudenti = studenti.map((element)=>{
+    return element.name.toUpperCase()
+    
+})
+
+console.log(votiStudenti)
+console.log(id)
+console.log(nomiStudenti)
