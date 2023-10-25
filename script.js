@@ -81,23 +81,34 @@ console.log(id)
 console.log(nomiStudenti)
 
 //SNACK 3
-
+const pesobici = []
 const biciclette = [
     {
-       nome: rockrider,
-       peso: 8,
+       nome: 'rockrider',
+       peso: 16,
     },
     {
-        nome: ducati,
-        peso: 28,
+        nome: 'ducati',
+        peso: 21,
      },
      {
-        nome: olmo,
-        peso: 6,
+        nome: 'olmo',
+        peso: 12,
      }
 ]
 
+biciclette.forEach((element, index)=> {
+    const {nome} = biciclette[index];
+    const {peso} = biciclette[index];
+    pesobici.push(element.peso)
+})
 
+console.log(pesobici)
+//i 3 puntini leggono direttaemente tutto quello che è dentro l'array => "..." <= 
+const pesoMinore = Math.min (...pesobici);
+console.log(pesoMinore)
 
+const leggerezza = `Il peso minore è ${pesoMinore}` 
+console.log(leggerezza);
 
 //SNACK 4
