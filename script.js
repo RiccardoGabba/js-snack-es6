@@ -73,9 +73,31 @@ let id = studenti.filter((element)=>{
 
 let nomiStudenti = studenti.map((element)=>{
     return element.name.toUpperCase()
-    
 })
+
 
 console.log(votiStudenti)
 console.log(id)
 console.log(nomiStudenti)
+
+//SNACK 3
+
+const biciclette = [
+    {
+       nome: rockrider,
+       peso: 8,
+    },
+    {
+        nome: ducati,
+        peso: 28,
+     },
+     {
+        nome: olmo,
+        peso: 6,
+     }
+]
+
+
+
+
+//SNACK 4
