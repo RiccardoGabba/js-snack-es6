@@ -112,3 +112,22 @@ const leggerezza = `Il peso minore è ${pesoMinore}`
 console.log(leggerezza);
 
 //SNACK 4
+
+const squadreCalcio = [
+    {
+        nome: 'Roma',
+        puntiFatti: '0',
+        falli: '0',
+    },
+    {
+        nome: 'Lazio',
+        puntiFatti: '0',
+        falli: '0',
+    },
+    {
+        nome: 'Cagliari',
+        puntiFatti: '0',
+        falli: '0',
+    }
+]
+
