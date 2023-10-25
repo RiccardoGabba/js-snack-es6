@@ -104,7 +104,7 @@ biciclette.forEach((element, index)=> {
 })
 
 console.log(pesobici)
-//i 3 puntini leggono direttaemente tutto quello che è dentro l'array => "..." <= 
+//i 3 puntini leggono direttaemente tutto quello che è dentro l'array => "...pesobici" <= 
 const pesoMinore = Math.min (...pesobici);
 console.log(pesoMinore)
 
