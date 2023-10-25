@@ -132,7 +132,7 @@ const squadreCalcio = [
 ]
 squadreCalcio.forEach((element)=>{
 element.puntiFatti = getRndInteger(1 , 10)
-element.felli = getRndInteger(1 , 10)
+element.falli = getRndInteger(1 , 10)
 })
 
 console.log(squadreCalcio);
